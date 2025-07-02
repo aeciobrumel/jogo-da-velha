@@ -18,7 +18,7 @@ let random = Math.floor(Math.random() * 2);
 let player = random === 0 ? "x" : "o";
 document.querySelector(".vez").innerHTML = player;
 let warning = "";
-let playing = false;
+let playing = true;
 
 function itemClick(event) {
   let item = event.target.getAttribute("data-item");
